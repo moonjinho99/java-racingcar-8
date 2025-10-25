@@ -17,5 +17,14 @@ public class Application {
             carList.add(car);
         }
 
+        //2. 이동횟수
+        int moveAll = Integer.parseInt(Console.readLine());
+        Play play = new Play(carList);
+
+        for(int i=0; i < moveAll; i++)
+        {
+            play.playGame();
+        }
+
     }
 }
