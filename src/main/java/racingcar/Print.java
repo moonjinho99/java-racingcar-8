@@ -39,7 +39,7 @@ public class Print {
             }
         }
 
-        System.out.println(result);
+        System.out.println("최종 우승자 : "+result);
     }
 
 
