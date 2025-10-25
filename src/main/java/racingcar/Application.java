@@ -26,5 +26,10 @@ public class Application {
             play.playGame();
         }
 
+        //3. 출력
+        Print print = new Print(carList);
+        print.printGameBoard();
+        print.printWinner();
+
     }
 }
